@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ahmadmuzaki.myrecyclerview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".halamandetail.AstanaGedeKawaliActivity"></activity>
+        <activity android:name=".halamandetail.SukahajiWaterboomActivity" />
+        <activity android:name=".halamandetail.WisataAlamCireongActivity" />
+        <activity android:name=".halamandetail.KampungAdatKutaActivity" />
+        <activity android:name=".halamandetail.KampungMaduActivity" />
+        <activity android:name=".halamandetail.CurugPangantenActivity" />
+        <activity android:name=".halamandetail.DarmacaangActivity" />
+        <activity android:name=".halamandetail.SitusKarangkamulyanActivity" />
+        <activity android:name=".halamandetail.SituLengkongPanjaluActivity" />
+        <activity android:name=".halamandetail.PuncakBangkuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
